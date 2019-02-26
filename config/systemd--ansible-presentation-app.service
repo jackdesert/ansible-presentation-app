@@ -1,0 +1,19 @@
+[Unit]
+Description=Demo Flask App
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/ansible-presentation-app
+
+ExecStart=/home/ubuntu/ansible-presentation-app/env/bin/python app.py
+
+TimeoutSec=30
+RestartSec=15s
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
