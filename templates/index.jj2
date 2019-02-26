@@ -4,8 +4,8 @@
     <style>
       body
       {
-        color: yellow;
-        background: black;
+        color: #afa;
+        background: #00c;
       }
     </style>
   </head>
@@ -15,6 +15,7 @@
     Little Rock Pythonistas
     </h1>
 
-    This is your friendly neighborhood <b>{{ ip_address }}</b> running the <b>master</b> branch.
+    This is your friendly neighborhood <b>{{ ip_address }}</b> running the <b>redis-counter</b> branch.
+    <h3>Page Loads: {{ page_loads }}</h3>
   </body>
 </html>
