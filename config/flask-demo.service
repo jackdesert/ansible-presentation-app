@@ -1,6 +1,7 @@
 [Unit]
 Description=Demo Flask App
 Wants=network.target
+Wants=redis-server.service
 
 [Service]
 Type=simple
