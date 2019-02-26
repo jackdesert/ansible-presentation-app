@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body
+      {
+        color: yellow;
+        background: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+    Little Rock Pythonistas
+    </h1>
+
+    This is your friendly neighborhood <b>{{ ip_address }}</b> running the <b>master</b> branch.
+  </body>
+</html>

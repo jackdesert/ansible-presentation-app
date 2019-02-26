@@ -1,0 +1,7 @@
+Demo App
+========
+
+    cd /path/to/this/project
+    python3 -m venv env
+    env/bin/pip install flask requests
+    env/bin/python app.py
